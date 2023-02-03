@@ -1,4 +1,4 @@
-from StringGenBot.db import db
+from ChampuString.db import db
 
 usersdb = db.users
 
