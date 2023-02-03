@@ -31,7 +31,7 @@
 
 ### 🙄 ᴅᴇᴍᴏ/ᴛᴇsᴛ ʙᴏᴛ
   
-  [sᴛʀɪɴɢ ʙᴏᴛ 🍑](https://telegram.me/ChampuStringBot)
+  [ᴄʜᴧᴍᴘᴜ sᴛʀɪɴɢ ʙᴏᴛ 🍑](https://telegram.me/ChampuStringBot)
 
 ```
 Atleast Give A Star and Fork The Repo 🖤
