@@ -14,18 +14,18 @@ async def start(bot: Client, msg: Message):
         chat_id=msg.chat.id,
         text=f"""Hᴇʏ {msg.from_user.mention},
 
-Tʜɪs ɪs {me2},
-Aɴ ᴏᴘᴇɴ sᴏᴜʀᴄᴇ sᴛʀɪɴɢ sᴇssɪᴏɴ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ, ᴡʀɪᴛᴛᴇɴ ɪɴ ᴩʏᴛʜᴏɴ ᴡɪᴛʜ ᴛʜᴇ ʜᴇʟᴩ ᴏғ ᴩʏʀᴏɢʀᴀᴍ.
+𝙏𝙝𝙞𝙨 𝙞𝙨 {me2},
+𝘼𝙣 𝙤𝙥𝙚𝙣 𝙨𝙤𝙪𝙧𝙘𝙚 𝙨𝙩𝙧𝙞𝙣𝙜 𝙨𝙚𝙨𝙨𝙞𝙤𝙣 𝙜𝙚𝙣𝙚𝙧𝙖𝙩𝙤𝙧 𝙗𝙤𝙩❟ 𝙬𝙧𝙞𝙩𝙩𝙚𝙣 𝙞𝙣 𝙥𝙮𝙩𝙝𝙤𝙣 𝙬𝙞𝙩𝙝 𝙩𝙝𝙚 𝙝𝙚𝙡𝙥 𝙤𝙛 𝙥𝙮𝙧𝙤𝙜𝙧𝙖𝙢 
 
-Mᴀᴅᴇ ᴡɪᴛʜ 🖤 ʙʏ : [𝝙𝗡𝗢𝗡𝗬𝗠𝗢𝗨𝗦](tg://user?id={OWNER_ID}) !""",
+𝙈𝙖𝙙𝙚 𝙬𝙞𝙩𝙝 𝙗𝙮  :[ᴄʜᴧᴍᴘᴜ](t.me/TheShivanshu) !""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton(text="🙄 ɢᴇɴᴇʀᴀᴛᴇ sᴇssɪᴏɴ 🙄", callback_data="generate")
+                    InlineKeyboardButton(text="𝙂𝙚𝙣𝙚𝙧𝙖𝙩𝙚 𝙎𝙚𝙨𝙨𝙞𝙤𝙣 ", callback_data="generate")
                 ],
                 [
                     InlineKeyboardButton("❣️ sᴏᴜʀᴄᴇ ❣️", url="https://github.com/AnonymousX1025/StringGenBot"),
-                    InlineKeyboardButton("🥀 ᴅᴇᴠᴇʟᴏᴩᴇʀ 🥀", user_id=OWNER_ID)
+                    InlineKeyboardButton("𝙊𝙬𝙣𝙚𝙧", user_id=OWNER_ID)
                 ]
             ]
         ),
