@@ -24,7 +24,7 @@ async def start(bot: Client, msg: Message):
                     InlineKeyboardButton(text="𝙂𝙚𝙣𝙚𝙧𝙖𝙩𝙚 𝙎𝙚𝙨𝙨𝙞𝙤𝙣 ", callback_data="generate")
                 ],
                 [
-                    InlineKeyboardButton("𝘾𝙝𝙖𝙢𝙥𝙪", url="https:/t.me/TheShivanshu"),
+                    InlineKeyboardButton("𝘾𝙝𝙖𝙢𝙥𝙪", url="https://github.com/AnonymousX1025/StringGenBot"),
                     InlineKeyboardButton("𝙊𝙬𝙣𝙚𝙧", user_id=OWNER_ID)
                 ]
             ]
