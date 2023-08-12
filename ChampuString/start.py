@@ -27,10 +27,6 @@ async def start(bot: Client, msg: Message):
                     InlineKeyboardButton("𝘾𝙝𝙖𝙢𝙥𝙪", url="https://github.com/AnonymousX1025/StringGenBot"),
                     InlineKeyboardButton("𝙊𝙬𝙣𝙚𝙧", user_id=OWNER_ID)
                 ],
-                [
-                    InlineKeyboardButton("𝘾𝙤𝙪𝙥𝙡𝙚𝙨 ", url="https:/t.me/Coupleslove_sd"),
-                    InlineKeyboardButton("𝘾𝙝𝙖𝙩𝙩𝙞𝙣𝙜 ", url="https://t.me/+wka8OhaMaawzN2U1")
-                ]
             ]
         ),
         disable_web_page_preview=True,
