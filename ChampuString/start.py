@@ -27,7 +27,7 @@ async def start(bot: Client, msg: Message):
                     InlineKeyboardButton("𝘾𝙤𝙪𝙥𝙡𝙚𝙨 ", url="https:/t.me/Coupleslove_sd"),
                     InlineKeyboardButton("𝘾𝙝𝙖𝙩𝙩𝙞𝙣𝙜 ", url="https://t.me/+wka8OhaMaawzN2U1")
                 ],
-                
+                [
                     InlineKeyboardButton("𝘾𝙝𝙖𝙢𝙥𝙪", url="https:/t.me/TheShivanshu"),
                     InlineKeyboardButton("𝙊𝙬𝙣𝙚𝙧", user_id=OWNER_ID)
                 ]
