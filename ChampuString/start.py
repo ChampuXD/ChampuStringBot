@@ -12,7 +12,7 @@ async def start(bot: Client, msg: Message):
     me2 = (await bot.get_me()).mention
     await bot.send_message(
         chat_id=msg.chat.id,
-        text=f"""Hᴇʏ {msg.from_user.mention},
+        text=f"""𝙃𝙚𝙮 {msg.from_user.mention},
 
 𝙏𝙝𝙞𝙨 𝙞𝙨 {me2},
 𝘼𝙣 𝙤𝙥𝙚𝙣 𝙨𝙤𝙪𝙧𝙘𝙚 𝙨𝙩𝙧𝙞𝙣𝙜 𝙨𝙚𝙨𝙨𝙞𝙤𝙣 𝙜𝙚𝙣𝙚𝙧𝙖𝙩𝙤𝙧 𝙗𝙤𝙩❟ 𝙬𝙧𝙞𝙩𝙩𝙚𝙣 𝙞𝙣 𝙥𝙮𝙩𝙝𝙤𝙣 𝙬𝙞𝙩𝙝 𝙩𝙝𝙚 𝙝𝙚𝙡𝙥 𝙤𝙛 𝙥𝙮𝙧𝙤𝙜𝙧𝙖𝙢 
@@ -24,7 +24,11 @@ async def start(bot: Client, msg: Message):
                     InlineKeyboardButton(text="𝙂𝙚𝙣𝙚𝙧𝙖𝙩𝙚 𝙎𝙚𝙨𝙨𝙞𝙤𝙣 ", callback_data="generate")
                 ],
                 [
-                    InlineKeyboardButton("❣️ sᴏᴜʀᴄᴇ ❣️", url="https://github.com/AnonymousX1025/StringGenBot"),
+                    InlineKeyboardButton("𝘾𝙤𝙪𝙥𝙡𝙚𝙨 ", url="https:/t.me/Coupleslove_sd"),
+                    InlineKeyboardButton("𝘾𝙝𝙖𝙩𝙩𝙞𝙣𝙜 ", url="https://t.me/+wka8OhaMaawzN2U1")
+                ],
+                
+                    InlineKeyboardButton("𝘾𝙝𝙖𝙢𝙥𝙪", url="https:/t.me/TheShivanshu"),
                     InlineKeyboardButton("𝙊𝙬𝙣𝙚𝙧", user_id=OWNER_ID)
                 ]
             ]
